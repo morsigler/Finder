@@ -1,0 +1,66 @@
+<resources>
+    <string name="app_name">Finder</string>
+    <string name="action_settings">Settings</string>
+    <string name="deafult_driver">Yossi Cohen</string>
+    <string name="title_activity_configuration">Configuration</string>
+    <string name="profile">PROFILE</string>
+    <string name="name">Name</string>
+    <string name="car_name">Car Number</string>
+    <string name="InsertYourCarNum">Insert your car number</string>
+    <string name="InsertYourName">Insert your name</string>
+    <string name="carType">Car Type</string>
+    <string name="insertCarType">Insert your car type</string>
+    <string name="title_activity_new_parking_space">new parking space</string>
+    <string name="title_activity_show_parking_around">Find Parking lots Around</string>
+    <string name="title_activity_about_me">About Us</string>
+    <string name="aboutUs">About Us</string>
+    <string name="findParkingAround">Parking lots</string>
+    <string name="newPark">Save New Space</string>
+    <string name="configuration">Configurations</string>
+    <string name="configure_button">Save</string>
+    <string name="locationButton">Update Location</string>
+    <string name="defNameMessage">Yossi Cohen</string>
+    <string name="defCarNumMessage">11-222-33</string>
+    <string name="defCarTypeMessage">Honda</string>
+    <string name="saveAndReturn">Save Location</string>
+    <string name="cancel">Cancel</string>
+    <string name="Gps_turned_off">GPS is turned off</string>
+    <string name="Gps_seraching">GPS is searching...</string>
+    <string name="Go_out">Try going outdoors</string>
+    <string name="no_name_location">Undefined location name</string>
+    <string name="title_line_adi">UI/UX Designer,\nCo-Founder</string>
+    <string name="title_line_michal">Core Developer,\nCo-Founder</string>
+    <string name="title_line_nitzan">Business Analyst,\nCo-Founder</string>
+    <string name="location">ISRAEL</string>
+    <string name="summary">Summary</string>
+    <string name="experience">Experience</string>
+    <string name="myNameAdi">Adi Shlomo</string>
+    <string name="myNameMichal">Michal Berger</string>
+    <string name="myNameNitzan">Nitzan Krauss</string>
+    <string name="ExperienceAdi">
+        Technical Support Engineer at Imperva Incapsula from December 2014 until Present.\nWorked as a Help Desk Specialist at Hewlett-Packard for 2 years from 2011 to 2013.\n
+    </string>
+    <string name="ExperienceMichal">
+        Monitoring the services APIs and systems as NOC at Gigya from May 2015 until Present.\nTechnical Support at Teva Pharmaceuticals from April 2014 to April 2015.
+    </string>
+    <string name="ExperienceNitzan">
+        Requirements Analyst at Clal Insurance from 2015 until present.\nExploring systems statistics and transform data into comprehension conclusions. Define and write SPEC documentation.
+    </string>
+    <string name="SummaryAdi">
+        Adi is an information system engineer Graduate from The Academic College of Tel-Aviv, Yaffo.\nAdi has a deep understanding of UI/UX methodologies which were implemented in this project.
+    </string>
+    <string name="SummaryMichal">
+        Michal is an information system engineer Graduate from The Academic College of Tel-Aviv, Yaffo.\nMichal comes from the Networks field as she currently works at Gigya as NOC engineer.
+    </string>
+    <string name="SummaryNitzan">
+        Nitzan is an information system engineer Graduate from The Academic College of Tel-Aviv, Yaffo.\nNitzan brings a good knowledge of users preference from her past experience.
+    </string>
+    <string name="title_activity_video_tutorial">Tutorial</string>
+    <string name="tutorialbutton">Watch The App Guide</string>
+    <string name="title_activity_save_new_space">Save New Space</string>
+    <string name="aboutMe">עליי</string>
+    <string name="Experience">Experience</string>
+    <string name="Summary">default</string>
+    <string name="myName">Mor Sigler</string>
+    <string name="title_line">Student</string>
+</resources>

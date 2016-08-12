@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" tools:context="com.shlomo.adi.finder.videoTutorial">
+
+    <item android:id="@+id/last_space" android:title="@string/newPark"
+        android:icon="@drawable/ic_home" android:orderInCategory="1"  app:showAsAction="always" />
+    <item android:id="@+id/history" android:title="@string/newPark"
+        android:icon="@drawable/ic_history" android:orderInCategory="2"  app:showAsAction="always" />
+    <item android:id="@+id/new_space" android:title="@string/newPark"
+        android:icon="@drawable/save_new_place" android:orderInCategory="3" app:showAsAction="always" />
+    <item android:id="@+id/parking_lot" android:title="@string/findParkingAround"
+        android:icon="@drawable/show_parking" android:orderInCategory="4" app:showAsAction="always" />
+    <item android:id="@+id/configuration" android:title="@string/configuration"
+        android:orderInCategory="5" app:showAsAction="never" />
+    <item android:id="@+id/about_me" android:title="@string/aboutUs"
+        android:orderInCategory="6" app:showAsAction="never" />
+
+</menu>

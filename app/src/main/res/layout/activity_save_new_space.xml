@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:paddingLeft="0dp"
+    android:paddingRight="0dp"
+    android:paddingTop="0dp"
+    android:paddingBottom="0dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="com.shlomo.adi.finder.saveNewSpace"
+    android:background="@color/white"
+    android:weightSum="1"
+    android:id="@+id/mylayout">
+
+    <LinearLayout
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="0dp"
+        android:paddingRight="0dp"
+        android:paddingTop="0dp"
+        android:paddingBottom="0dp"
+        android:background="@color/white"
+        android:id="@+id/header"
+        android:layout_alignParentTop="true"
+        android:gravity="center"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:elevation="5dp">
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/locationButton"
+            android:id="@+id/locationButton"
+            android:onClick="update"
+            android:textColor="@color/white"
+            android:background="@color/colorPrimary"
+
+           />
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/saveAndReturn"
+            android:id="@+id/saveAndReturnbutton"
+            android:textColor="@color/white"
+            android:onClick="saveNewPlace"
+            android:background="@color/colorPrimary"
+
+
+             />
+
+    </LinearLayout>
+
+
+    <WebView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/webView1"
+        android:layout_below="@+id/header" />
+
+
+</RelativeLayout>
+

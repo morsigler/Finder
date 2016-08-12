@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#4CC1D2</color>
+    <color name="colorPrimaryDark">#38bacd</color>
+    <color name="colorAccent">#5C5C5C</color>
+    <color name="white">#FFFFFF</color>
+    <color name="checked">#4CC1D2</color>
+    <color name="text">#A9A9A9</color>
+    <color name="icon_not_selected">#BABABA</color>
+    <color name="icon_selected">#737373</color>
+    <color name="button">#737373</color>
+    <color name="green">#009900</color>
+
+
+
+</resources>

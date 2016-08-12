@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="0dp"
+    android:paddingRight="0dp"
+    android:paddingTop="0dp"
+    android:paddingBottom="0dp"
+    tools:context="com.shlomo.adi.finder.configuration"
+    android:background="@color/white"
+    android:weightSum="1"
+    android:id="@+id/config_layout">
+
+
+    <LinearLayout
+
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:paddingLeft="0dp"
+        android:paddingRight="0dp"
+        android:paddingTop="0dp"
+        android:paddingBottom="0dp"
+        android:background="@color/white"
+        android:id="@+id/header"
+        android:layout_alignParentTop="true"
+        android:gravity="center"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentStart="false"
+        android:layout_alignParentEnd="false"
+        android:elevation="5dp">
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:text="@string/configuration"
+            android:id="@+id/configure_view"
+            android:textColor="@color/white"
+            android:background="@drawable/button_selected"
+
+
+
+            />
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:text="@string/tutorialbutton"
+            android:id="@+id/tutorialbutton"
+            android:textColor="@color/white"
+            android:background="@color/colorPrimary"
+            android:onClick="moveToVideo"
+
+
+            />
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/name"
+        android:id="@+id/InsertName"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="20dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="false"
+        android:layout_marginTop="41dp"
+        android:layout_below="@+id/header"
+        android:layout_marginLeft="15dp"
+
+        />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/name"
+        android:hint="@string/InsertYourName"
+        android:layout_marginLeft="72dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentStart="false"
+        android:layout_alignParentEnd="false"
+        android:layout_marginTop="30dp"
+        android:layout_below="@+id/header"
+        android:layout_toRightOf="@+id/InsertName" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/car_name"
+        android:id="@+id/insertCarNum"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textColor="@color/colorPrimaryDark"
+        android:textIsSelectable="false"
+        android:textSize="20dp"
+        android:layout_below="@+id/name"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="23dp"
+         />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:ems="10"
+        android:id="@+id/carNum"
+        android:hint="@string/InsertYourCarNum"
+        android:layout_below="@+id/name"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="15dp"
+        android:layout_alignParentEnd="false"
+        android:layout_toEndOf="@+id/insertCarNum" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/carType"
+        android:id="@+id/insertCarType"
+        android:layout_below="@+id/carNum"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="20dp"
+        android:layout_marginLeft="15dp"
+         />
+
+    <EditText
+        android:layout_width="213dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/carType"
+        android:layout_alignStart="@+id/carNum"
+        android:hint="@string/insertCarType"
+        android:layout_below="@+id/carNum"
+        android:layout_marginTop="10dp"
+        android:layout_toRightOf="@+id/insertCarType"
+        android:layout_marginLeft="0dp"
+        android:layout_alignParentEnd="false" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/configure_button"
+        android:id="@+id/configure_button"
+        android:onClick="save"
+        android:nestedScrollingEnabled="false"
+        android:layout_below="@+id/carType"
+        android:layout_marginTop="25dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="10dp"
+        android:background="@android:color/transparent"
+        android:textColor="@color/green"
+        android:textAllCaps="false"
+        android:textSize="20dp"
+       />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/cancel"
+        android:id="@+id/cancel_button"
+        android:onClick="cancel"
+        android:background="@android:color/transparent"
+        android:textColor="@color/text"
+        android:layout_below="@+id/carType"
+        android:layout_toLeftOf="@+id/configure_button"
+        android:layout_marginTop="25dp"
+        android:textAllCaps="false"
+        android:textSize="20dp"/>
+
+
+
+</RelativeLayout>

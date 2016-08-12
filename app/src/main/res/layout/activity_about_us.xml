@@ -1,0 +1,445 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.shlomo.adi.finder.aboutUs"
+    android:background="@color/white"
+    android:id="@+id/mainAboutUs"
+    android:fillViewport="false">
+
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools" android:layout_width="wrap_content"
+        android:layout_height="wrap_content" android:paddingLeft="7dp"
+        android:paddingRight="7dp"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        tools:context="com.shlomo.adi.finder.aboutUs"
+        android:background="@color/white"
+        android:id="@+id/aboutUsChild">
+
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/adiSection"
+                android:onClick="openAdi">
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:id="@+id/imageView"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:background="@drawable/adiprofilepic"
+                    android:onClick="openAdi"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="@string/myNameAdi"
+                    android:id="@+id/name"
+                    android:layout_alignTop="@+id/imageView"
+                    android:layout_toRightOf="@+id/imageView"
+                    android:layout_toEndOf="@+id/imageView"
+                    android:layout_marginLeft="@dimen/abc_dropdownitem_icon_width"
+                    android:textColor="@color/text"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="@string/title_line_adi"
+                    android:id="@+id/title"
+                    android:layout_alignLeft="@+id/name"
+                    android:layout_alignStart="@+id/name"
+                    android:layout_marginTop="35dp"
+                    android:textSize="18dp"
+                    android:textColor="@color/text" />
+
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:id="@+id/expandAdi"
+                    android:layout_alignParentTop="false"
+                    android:layout_alignParentLeft="false"
+                    android:layout_alignParentStart="false"
+                    android:background="@drawable/ic_expand"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentBottom="false"
+                    android:layout_alignParentRight="false"
+                    android:layout_marginTop="20dp" />
+
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="@dimen/abc_action_bar_subtitle_bottom_margin_material"
+                        android:id="@+id/adiInnerSection"
+                        android:visibility="gone"
+                        android:animateLayoutChanges="true"
+                        android:layout_below="@+id/imageView"
+                        android:layout_marginTop="20dp">
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/imageView2"
+                            android:src="@drawable/sum"
+                            android:layout_marginTop="10dp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:text="@string/summary"
+                            android:id="@+id/titleSum"
+                            android:layout_toRightOf="@+id/imageView2"
+                            android:padding="5dp"
+                            android:layout_alignBottom="@+id/imageView2"
+                            android:textStyle="bold"
+                            android:layout_alignTop="@+id/imageView2"
+                            android:textColor="@color/text" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/SummaryAdi"
+                            android:id="@+id/summary"
+                            android:layout_below="@+id/titleSum"
+                            android:layout_alignLeft="@+id/titleSum"
+                            android:padding="5dp"
+                            android:textColor="@color/text"
+                            android:textSize="15dp" />
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/imageExp"
+                            android:src="@drawable/exp"
+                            android:layout_below="@+id/summary"
+                            android:layout_alignLeft="@+id/imageView2" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:text="@string/experience"
+                            android:id="@+id/titleExp"
+                            android:layout_alignBottom="@+id/imageExp"
+                            android:layout_toRightOf="@+id/imageView2"
+                            android:layout_toEndOf="@+id/imageView2"
+                            android:textColor="@color/text"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:id="@+id/Experience"
+                            android:padding="5dp"
+                            android:layout_below="@+id/titleExp"
+                            android:layout_alignLeft="@+id/titleExp"
+                            android:layout_alignStart="@+id/titleExp"
+                            android:text="@string/ExperienceAdi"
+                            android:textColor="@color/text"
+                            android:textSize="15dp" />
+
+                    </RelativeLayout>
+            </RelativeLayout>
+
+        <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:tools="http://schemas.android.com/tools" android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            tools:context="com.shlomo.adi.finder.aboutUs"
+            android:background="@color/white"
+            android:id="@+id/michalSection"
+            android:layout_below="@+id/adiSection"
+            android:layout_alignParentStart="false"
+            android:layout_alignParentEnd="false"
+            android:layout_alignParentLeft="false"
+            android:layout_marginTop="30dp"
+            android:onClick="openMichal">
+
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:id="@+id/openMichal"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:background="@drawable/michalprofilepic"
+                android:layout_marginTop="15dp"
+                android:layout_alignParentEnd="false" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="@string/myNameMichal"
+                android:id="@+id/nameMichal"
+                android:layout_alignTop="@+id/openMichal"
+                android:layout_toRightOf="@+id/openMichal"
+                android:layout_toEndOf="@+id/openMichal"
+                android:layout_marginLeft="@dimen/abc_dropdownitem_icon_width"
+                android:textColor="@color/text"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="@string/title_line_michal"
+                android:id="@+id/titleMichal"
+                android:layout_alignLeft="@+id/nameMichal"
+                android:layout_alignStart="@+id/nameMichal"
+                android:layout_marginTop="50dp"
+                android:textSize="18dp"
+                android:textColor="@color/text"
+                android:layout_alignParentTop="false"
+                android:layout_alignParentStart="false" />
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:id="@+id/expandMichal"
+                android:layout_alignParentTop="false"
+                android:layout_alignParentLeft="false"
+                android:layout_alignParentStart="false"
+                android:background="@drawable/ic_expand"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="false"
+                android:layout_alignParentRight="false"
+                android:layout_marginTop="35dp" />
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/abc_action_bar_subtitle_bottom_margin_material"
+                android:id="@+id/michalInnerSection"
+                android:visibility="gone"
+                android:animateLayoutChanges="true"
+                android:layout_marginTop="20dp"
+                android:layout_below="@+id/openMichal">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/michalImageView2"
+                    android:src="@drawable/sum"
+                    android:layout_marginTop="10dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="@string/summary"
+                    android:id="@+id/michaltitleSum"
+                    android:layout_toRightOf="@+id/michalImageView2"
+                    android:padding="5dp"
+                    android:layout_alignBottom="@+id/michalImageView2"
+                    android:textStyle="bold"
+                    android:layout_alignTop="@+id/michalImageView2"
+                    android:textColor="@color/text" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/SummaryMichal"
+                    android:id="@+id/michalSummary"
+                    android:layout_below="@+id/michaltitleSum"
+                    android:layout_alignLeft="@+id/michaltitleSum"
+                    android:padding="5dp"
+                    android:textColor="@color/text"
+                    android:textSize="15dp" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/michalImageExp"
+                    android:src="@drawable/exp"
+                    android:layout_below="@+id/michalSummary"
+                    android:layout_alignLeft="@+id/michalImageView2" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="@string/experience"
+                    android:id="@+id/michalTitleExp"
+                    android:layout_alignBottom="@+id/michalImageExp"
+                    android:layout_toRightOf="@+id/michalImageView2"
+                    android:layout_toEndOf="@+id/michalImageView2"
+                    android:textColor="@color/text"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:id="@+id/michalExperience"
+                    android:padding="5dp"
+                    android:layout_below="@+id/michalTitleExp"
+                    android:layout_alignLeft="@+id/michalTitleExp"
+                    android:layout_alignStart="@+id/michalTitleExp"
+                    android:text="@string/ExperienceMichal"
+                    android:textColor="@color/text"
+                    android:textSize="15dp" />
+
+            </RelativeLayout>
+        </RelativeLayout>
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools" android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        tools:context="com.shlomo.adi.finder.aboutUs"
+        android:background="@color/white"
+        android:id="@+id/nitzanSection"
+        android:layout_below="@+id/michalSection"
+        android:layout_alignParentStart="false"
+        android:layout_alignParentEnd="false"
+        android:layout_alignParentLeft="false"
+        android:layout_marginTop="30dp"
+        android:onClick="openNitzan">
+
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:id="@+id/openNitzan"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:background="@drawable/nitzanprofilepic"
+
+            android:layout_marginTop="15dp"
+            android:layout_alignParentEnd="false" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/myNameNitzan"
+            android:id="@+id/nameNitzan"
+            android:layout_alignTop="@+id/openNitzan"
+            android:layout_toRightOf="@+id/openNitzan"
+            android:layout_toEndOf="@+id/openNitzan"
+            android:layout_marginLeft="@dimen/abc_dropdownitem_icon_width"
+            android:textColor="@color/text"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/title_line_nitzan"
+            android:id="@+id/titleNitzan"
+            android:layout_alignLeft="@+id/nameNitzan"
+            android:layout_alignStart="@+id/nameNitzan"
+            android:layout_marginTop="50dp"
+            android:textSize="18dp"
+            android:textColor="@color/text"
+            android:layout_alignParentTop="false"
+            android:layout_alignParentStart="false" />
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id="@+id/expandNitzan"
+            android:layout_alignParentTop="false"
+            android:layout_alignParentLeft="false"
+            android:layout_alignParentStart="false"
+            android:background="@drawable/ic_expand"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="false"
+            android:layout_alignParentRight="false"
+            android:layout_marginTop="35dp" />
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/abc_action_bar_subtitle_bottom_margin_material"
+            android:id="@+id/nitzanInnerSection"
+            android:visibility="gone"
+            android:animateLayoutChanges="true"
+            android:layout_marginTop="20dp"
+            android:layout_below="@+id/openNitzan">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/nitzanImageView2"
+                android:src="@drawable/sum"
+                android:layout_marginTop="10dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="@string/summary"
+                android:id="@+id/nitzantitleSum"
+                android:layout_toRightOf="@+id/nitzanImageView2"
+                android:padding="5dp"
+                android:layout_alignBottom="@+id/nitzanImageView2"
+                android:textStyle="bold"
+                android:layout_alignTop="@+id/nitzanImageView2"
+                android:textColor="@color/text" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/SummaryNitzan"
+                android:id="@+id/nitzanSummary"
+                android:layout_below="@+id/nitzantitleSum"
+                android:layout_alignLeft="@+id/nitzantitleSum"
+                android:padding="5dp"
+                android:textColor="@color/text"
+                android:textSize="15dp" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/nitzanImageExp"
+                android:src="@drawable/exp"
+                android:layout_below="@+id/nitzanSummary"
+                android:layout_alignLeft="@+id/nitzanImageView2" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="@string/experience"
+                android:id="@+id/nitzanTitleExp"
+                android:layout_alignBottom="@+id/nitzanImageExp"
+                android:layout_toRightOf="@+id/nitzanImageView2"
+                android:layout_toEndOf="@+id/nitzanImageView2"
+                android:textColor="@color/text"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:id="@+id/nitzanExperience"
+                android:padding="5dp"
+                android:layout_below="@+id/nitzanTitleExp"
+                android:layout_alignLeft="@+id/nitzanTitleExp"
+                android:layout_alignStart="@+id/nitzanTitleExp"
+                android:text="@string/ExperienceNitzan"
+                android:textColor="@color/text"
+                android:textSize="15dp" />
+
+        </RelativeLayout>
+    </RelativeLayout>
+
+    </RelativeLayout>
+</ScrollView>

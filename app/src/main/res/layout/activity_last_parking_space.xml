@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="0dp"
+    android:paddingRight="0dp"
+    android:paddingTop="0dp"
+    android:paddingBottom="0dp" tools:context=".LastParkingSpace"
+    android:background="@color/colorPrimary"
+    android:id ="@+id/last_space">
+
+
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:id="@+id/person"
+        android:layout_alignParentEnd="false"
+        android:background="@drawable/ic_person"
+        android:layout_alignParentLeft="true"
+        android:adjustViewBounds="false"
+        android:backgroundTintMode="src_over"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="15dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Large Text"
+        android:id="@+id/driver"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="false"
+        android:layout_alignParentStart="false"
+        android:textColor="@color/white"
+        android:layout_toRightOf="@+id/person"
+        android:layout_marginLeft="7dp"
+        android:layout_marginTop="4dp" />
+
+
+
+
+
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:id="@+id/current"
+        android:layout_alignParentEnd="false"
+        android:background="@drawable/ic_current"
+        android:layout_alignParentLeft="true"
+        android:adjustViewBounds="false"
+        android:backgroundTintMode="src_over"
+        android:layout_marginTop="5dp"
+        android:layout_below="@+id/person"
+        android:layout_marginLeft="15dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Large Text"
+        android:id="@+id/longitude"
+        android:layout_alignParentTop="false"
+        android:layout_alignParentLeft="false"
+        android:layout_alignParentStart="false"
+        android:textColor="@color/white"
+        android:layout_toRightOf="@+id/current"
+        android:layout_marginLeft="7dp"
+        android:layout_below="@+id/driver"
+        android:layout_marginTop="10dp" />
+
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingLeft="0dp"
+        android:paddingRight="0dp"
+        android:paddingTop="0dp"
+        android:paddingBottom="0dp" tools:context=".LastParkingSpace"
+        android:background="@color/white"
+        android:id ="@+id/last_space_webView"
+        android:layout_marginTop="5dp"
+        android:layout_alignParentEnd="false"
+        android:layout_alignParentStart="false"
+        android:layout_below="@+id/longitude">
+
+    <WebView
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/webView2"
+        android:layout_alignParentLeft="false"
+        android:layout_alignParentStart="false"
+
+        android:layout_alignParentEnd="false" />
+
+
+</RelativeLayout>
+
+
+</RelativeLayout>
+

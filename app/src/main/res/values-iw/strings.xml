@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="profile">פרופיל</string>
+    <string name="title_activity_configuration">הגדרות</string>
+    <string name="InsertYourCarNum">הכנס מספר רכב</string>
+    <string name="InsertYourName">הכנס שם</string>
+    <string name="aboutMe">אודות</string>
+    <string name="action_settings">הגדרות</string>
+    <string name="carType">סוג הרכב</string>
+    <string name="car_name">מספר הרכב</string>
+    <string name="configuration">הגדרות</string>
+    <string name="configure_button">שמור</string>
+    <string name="deafult_driver">יוסי כהן</string>
+    <string name="defCarTypeMessage">הונדה</string>
+    <string name="defCarNumMessage">11-222-33</string>
+    <string name="defNameMessage">יוסי כהן</string>
+    <string name="experience">ניסיון</string>
+    <string name="findParkingAround">חניונים</string>
+    <string name="insertCarType">הכנס את סוג הרכב</string>
+    <string name="location">ישראל</string>
+    <string name="locationButton">עדכן מיקום</string>
+    <string name="myName">מור סיגלר</string>
+    <string name="name">שם</string>
+    <string name="newPark">שמור מיקום חדש</string>
+    <string name="saveAndReturn">שמור מיקום</string>
+    <string name="summary">רקע</string>
+    <string name="title_activity_about_me">אודות</string>
+    <string name="title_activity_new_parking_space">מיקום חדש</string>
+    <string name="title_activity_show_parking_around">מצא חניונים באזור</string>
+    <string name="title_activity_video_tutorial">מדריך</string>
+    <string name="title_line">סטודנטית למערכות מידע במכללה האקדמית תל אביב יפו</string>
+    <string name="tutorialbutton">צפה במדריך האפליקציה</string>
+    <string name="Summary">הפילוסופיה החינוכית שלי מבוססת על:  - גישת למידה פעילה  - מיומנות מבוססת, המתודולוגיה הוראת חניכות קוגניטיבית  - סינרגיה של הטכנולוגיה ויזמות  - גישה פרגמטית: ידיים על מסלול שמחנכות להיות מפתחים בעולם האמיתי - חיבור עולמי  ניתוח, עיצוב ופיתוח של מערכת המידע במגוון רחב של יישומים עסקיים</string>
+    <string name="Experience"><b> מתגברת </b></string>
+    <string name="title_activity_save_new_space">שמור מקום חדש</string>
+    <string name="app_name">מצא אוטו</string>
+    <string name="aboutUs">מי אנחנו?</string>
+    <string name="cancel">בטל</string>
+    <string name="Gps_seraching">מחפש מיקום...</string>
+    <string name="Gps_turned_off">שירותי מיקום כבויים</string>
+    <string name="Go_out">נסה לצאת החוצה</string>
+    <string name="myNameAdi">עדי שלמה</string>
+    <string name="myNameMichal">מיכל ברגר</string>
+    <string name="myNameNitzan">ניצן קראוס</string>
+    <string name="no_name_location">לא הוגדר שם עבור מיקום</string>
+    <string name="title_line_adi">מעצבת UI/UX,\nשותפה מייסדת</string>
+    <string name="title_line_michal">מתכנתת ליבה,\nשותפה מייסדת</string>
+    <string name="title_line_nitzan">אנליסטית עסקית,\nשותפה מייסדת</string>
+    <string name="ExperienceAdi">נציגת תמיכה טכנית ושירות לקוחות בחברת אימפרבה - אינקפסולה החל מדצמבר 2014 עד היום.\nתמיכה עבור מתן שירותים טכנולוגיים פנימיים בחברת HP כשנתיים.</string>
+    <string name="ExperienceMichal">ניטור ובקרת שירותי API ומערכות כמהנדסת NOC בחברת ג׳יגיה החל ממאי 2015 ועד היום.\nנציגת תמיכה טכנית בחברת טבע במשך כשנה משנת 2014 ועד 2015.</string>
+    <string name="ExperienceNitzan">מנתחת ומאפיינת דרישות לקוחות בחברת ביטוח רפואי כלל החל מ2015 ועד היום./nחוקרת סטטיסטיקת מערכות ומנתחת את המידע לכדי מסקנות ברורות. הגדרה וכתיבת אפיון המערכת.</string>
+    <string name="SummaryAdi">עדי היא בוגרת החוג למערכות מידע מהמכללה האקדמית תל אביב, יפו.\nעדי בעלת הבנה עמוקה במתודולוגיית עיצוב וחווית משתשמש אשר אותם יישמה והטמיעה בפרויקט זה.</string>
+    <string name="SummaryMichal">מיכל היא בוגרת החוג למערכות מידע במכלה האקדמית תל אביב, יפו.\nמיכל מגיעה מתחום התקשורת והרשתות מאחר ובימים אלה עובדת בתחום הניטור והבקרה.</string>
+    <string name="SummaryNitzan">ניצן היא בוגרת החוג למערכות מידע במכללה האקדמית תל אביב, יפו.\nניצן בעלת ידע נרחב על העדפות משתמשים מניסיונה בתחום התעסוקתי.</string>
+
+
+</resources>
