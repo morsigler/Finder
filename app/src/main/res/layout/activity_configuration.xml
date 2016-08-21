@@ -67,7 +67,7 @@
         android:id="@+id/InsertName"
         android:textColor="@color/colorPrimaryDark"
         android:textSize="20dp"
-        android:layout_alignParentLeft="true"
+        android:layout_alignParentLeft="false"
         android:layout_alignParentStart="false"
         android:layout_marginTop="41dp"
         android:layout_below="@+id/header"
@@ -82,13 +82,12 @@
         android:ems="10"
         android:id="@+id/name"
         android:hint="@string/InsertYourName"
-        android:layout_marginLeft="72dp"
-        android:layout_centerHorizontal="true"
         android:layout_alignParentStart="false"
         android:layout_alignParentEnd="false"
         android:layout_marginTop="30dp"
         android:layout_below="@+id/header"
-        android:layout_toRightOf="@+id/InsertName" />
+        android:layout_marginLeft="140dp"
+        android:layout_marginRight="50dp" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -126,8 +125,8 @@
         android:text="@string/carType"
         android:id="@+id/insertCarType"
         android:layout_below="@+id/carNum"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="false"
+        android:layout_alignParentStart="false"
         android:layout_marginTop="20dp"
         android:textColor="@color/colorPrimaryDark"
         android:textSize="20dp"
@@ -142,7 +141,6 @@
         android:hint="@string/insertCarType"
         android:layout_below="@+id/carNum"
         android:layout_marginTop="10dp"
-        android:layout_toRightOf="@+id/insertCarType"
         android:layout_marginLeft="0dp"
         android:layout_alignParentEnd="false" />
 
@@ -156,12 +154,13 @@
         android:layout_below="@+id/carType"
         android:layout_marginTop="25dp"
         android:layout_alignParentEnd="true"
-        android:layout_marginRight="10dp"
         android:background="@android:color/transparent"
         android:textColor="@color/green"
         android:textAllCaps="false"
         android:textSize="20dp"
-       />
+        android:layout_alignParentStart="false"
+        android:layout_marginLeft="100dp"
+        android:layout_marginRight="100dp" />
 
     <Button
         android:layout_width="wrap_content"
@@ -172,10 +171,11 @@
         android:background="@android:color/transparent"
         android:textColor="@color/text"
         android:layout_below="@+id/carType"
-        android:layout_toLeftOf="@+id/configure_button"
         android:layout_marginTop="25dp"
         android:textAllCaps="false"
-        android:textSize="20dp"/>
+        android:textSize="20dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentStart="false" />
 
 
 

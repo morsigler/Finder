@@ -60,7 +60,7 @@
                     android:layout_alignLeft="@+id/name"
                     android:layout_alignStart="@+id/name"
                     android:layout_marginTop="35dp"
-                    android:textSize="18dp"
+                    android:textSize="18sp"
                     android:textColor="@color/text" />
 
                 <ImageView
@@ -116,7 +116,7 @@
                             android:layout_alignLeft="@+id/titleSum"
                             android:padding="5dp"
                             android:textColor="@color/text"
-                            android:textSize="15dp" />
+                            android:textSize="15sp" />
 
                         <ImageView
                             android:layout_width="wrap_content"
@@ -149,7 +149,7 @@
                             android:layout_alignStart="@+id/titleExp"
                             android:text="@string/ExperienceAdi"
                             android:textColor="@color/text"
-                            android:textSize="15dp" />
+                            android:textSize="15sp" />
 
                     </RelativeLayout>
             </RelativeLayout>
@@ -202,7 +202,7 @@
                 android:layout_alignLeft="@+id/nameMichal"
                 android:layout_alignStart="@+id/nameMichal"
                 android:layout_marginTop="50dp"
-                android:textSize="18dp"
+                android:textSize="18sp"
                 android:textColor="@color/text"
                 android:layout_alignParentTop="false"
                 android:layout_alignParentStart="false" />
@@ -259,7 +259,7 @@
                     android:layout_alignLeft="@+id/michaltitleSum"
                     android:padding="5dp"
                     android:textColor="@color/text"
-                    android:textSize="15dp" />
+                    android:textSize="15sp" />
 
                 <ImageView
                     android:layout_width="wrap_content"
@@ -292,7 +292,7 @@
                     android:layout_alignStart="@+id/michalTitleExp"
                     android:text="@string/ExperienceMichal"
                     android:textColor="@color/text"
-                    android:textSize="15dp" />
+                    android:textSize="15sp" />
 
             </RelativeLayout>
         </RelativeLayout>
@@ -346,7 +346,7 @@
             android:layout_alignLeft="@+id/nameNitzan"
             android:layout_alignStart="@+id/nameNitzan"
             android:layout_marginTop="50dp"
-            android:textSize="18dp"
+            android:textSize="18sp"
             android:textColor="@color/text"
             android:layout_alignParentTop="false"
             android:layout_alignParentStart="false" />
@@ -403,7 +403,7 @@
                 android:layout_alignLeft="@+id/nitzantitleSum"
                 android:padding="5dp"
                 android:textColor="@color/text"
-                android:textSize="15dp" />
+                android:textSize="15sp" />
 
             <ImageView
                 android:layout_width="wrap_content"
@@ -436,7 +436,7 @@
                 android:layout_alignStart="@+id/nitzanTitleExp"
                 android:text="@string/ExperienceNitzan"
                 android:textColor="@color/text"
-                android:textSize="15dp" />
+                android:textSize="15sp" />
 
         </RelativeLayout>
     </RelativeLayout>
