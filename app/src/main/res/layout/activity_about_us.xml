@@ -105,7 +105,8 @@
                             android:layout_alignBottom="@+id/imageView2"
                             android:textStyle="bold"
                             android:layout_alignTop="@+id/imageView2"
-                            android:textColor="@color/text" />
+                            android:textColor="@color/text"
+                            android:layout_toEndOf="@id/imageView2" />
 
                         <TextView
                             android:layout_width="wrap_content"
@@ -116,7 +117,8 @@
                             android:layout_alignLeft="@+id/titleSum"
                             android:padding="5dp"
                             android:textColor="@color/text"
-                            android:textSize="15sp" />
+                            android:textSize="15sp"
+                            android:layout_alignStart="@id/titleSum" />
 
                         <ImageView
                             android:layout_width="wrap_content"
@@ -248,7 +250,8 @@
                     android:layout_alignBottom="@+id/michalImageView2"
                     android:textStyle="bold"
                     android:layout_alignTop="@+id/michalImageView2"
-                    android:textColor="@color/text" />
+                    android:textColor="@color/text"
+                    android:layout_toEndOf="@id/michalImageView2" />
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -259,7 +262,8 @@
                     android:layout_alignLeft="@+id/michaltitleSum"
                     android:padding="5dp"
                     android:textColor="@color/text"
-                    android:textSize="15sp" />
+                    android:textSize="15sp"
+                    android:layout_alignStart="@id/michaltitleSum" />
 
                 <ImageView
                     android:layout_width="wrap_content"
@@ -392,7 +396,8 @@
                 android:layout_alignBottom="@+id/nitzanImageView2"
                 android:textStyle="bold"
                 android:layout_alignTop="@+id/nitzanImageView2"
-                android:textColor="@color/text" />
+                android:textColor="@color/text"
+                android:layout_toEndOf="@id/nitzanImageView2" />
 
             <TextView
                 android:layout_width="wrap_content"
@@ -403,7 +408,8 @@
                 android:layout_alignLeft="@+id/nitzantitleSum"
                 android:padding="5dp"
                 android:textColor="@color/text"
-                android:textSize="15sp" />
+                android:textSize="15sp"
+                android:layout_alignStart="@id/nitzantitleSum" />
 
             <ImageView
                 android:layout_width="wrap_content"
