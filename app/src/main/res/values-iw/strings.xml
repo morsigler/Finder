@@ -4,7 +4,6 @@
     <string name="title_activity_configuration">הגדרות</string>
     <string name="InsertYourCarNum">הכנס מספר רכב</string>
     <string name="InsertYourName">הכנס שם</string>
-    <string name="aboutMe">אודות</string>
     <string name="action_settings">הגדרות</string>
     <string name="carType">סוג הרכב</string>
     <string name="car_name">מספר הרכב</string>
@@ -19,7 +18,6 @@
     <string name="insertCarType">הכנס את סוג הרכב</string>
     <string name="location">ישראל</string>
     <string name="locationButton">עדכן מיקום</string>
-    <string name="myName">מור סיגלר</string>
     <string name="name">שם</string>
     <string name="newPark">שמור מיקום חדש</string>
     <string name="saveAndReturn">שמור מיקום</string>
