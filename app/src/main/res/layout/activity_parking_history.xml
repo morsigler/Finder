@@ -15,6 +15,7 @@
     tools:context="com.shlomo.adi.finder.parkingHistory"
     android:id="@+id/insertPoint"
     android:orientation="vertical"
+
     >
 
     <Button
