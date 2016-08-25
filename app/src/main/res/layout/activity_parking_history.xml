@@ -13,11 +13,23 @@
     android:layout_height="match_parent"
     android:background="@color/white"
     tools:context="com.shlomo.adi.finder.parkingHistory"
-    android:id="@+id/insertPoint"
+    android:id="@+id/parkingHistoryLayout"
     android:orientation="vertical"
     >
 
-
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text = "@string/deleteAll"
+        android:textAllCaps="false"
+        android:textSize="20dp"
+        android:layout_alignParentEnd="true"
+        android:id="@+id/insertPoint"
+        android:layout_alignParentStart="false"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:onClick="deleteAllDb"
+        />
 
 </LinearLayout>
 </ScrollView>

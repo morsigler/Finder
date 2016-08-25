@@ -159,9 +159,9 @@ public class parkingHistory extends AppCompatActivity {
 
     public void deleteAllDb(View view) {
 
-
-
         dbRead.delete(myParkingHistoryDB.TableParking.TABLE_NAME, null, null);
+        finish();
+        startActivity(getIntent());
 
     }
 }

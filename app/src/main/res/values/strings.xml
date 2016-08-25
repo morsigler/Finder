@@ -60,7 +60,7 @@
     <string name="title_activity_save_new_space">Save New Space</string>
     <string name="aboutMe">עליי</string>
     <string name="Experience">Experience</string>
-    <string name="Summary">default</string>
     <string name="myName">Mor Sigler</string>
     <string name="title_line">Student</string>
+    <string name="deleteAll">Delete All</string>
 </resources>
